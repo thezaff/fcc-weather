@@ -8,10 +8,13 @@
                     $("#icon").attr('src', json.weather[0].icon);
                     $("#location").html(json.name + ", " + json.sys.country);
                     $("#main").html(json.weather[0].main);
-                    $("#temp").html(json.main.temp + "°");
+                    $("#temp").html(json.main.temp);
                     $("#converter").html("C");
                 }
             });
         });
     }
 
+function myFunction () {
+    $("#converter").html("F");
+}
