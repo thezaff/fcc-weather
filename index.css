@@ -43,3 +43,17 @@ footer {
     margin-top: 30%; 
 /*    margin: 30% auto auto auto;*/
 }
+
+a {
+    text-decoration: none;
+}
+
+#celsius {
+    color: #2BB3C0;
+    cursor: pointer;
+}
+
+#farenheit {
+    color: #222831;
+    cursor: pointer;
+}
